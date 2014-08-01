@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo -e "Configure THMCards. This could take a few minutes...\c"
+
+eval "cd /vagrant"
+eval "python createviews.py"
+eval "npm install --no-bin-links"
