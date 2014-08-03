@@ -1,0 +1,107 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://localhost:3000"
+    },
+	{
+      "type": "verifyTextPresent",
+      "text": "Create."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Learn."
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Share."
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "About THMcards"
+      }
+    },
+    {
+      "type": "waitForText",
+      "locator": {
+        "type": "css selector",
+        "value": "div.item.active > div.carousel-caption > h3"
+      },
+      "text": "Your digital flashcards"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.glyphicon.glyphicon-chevron-right"
+      }
+    },
+    {
+      "type": "waitForText",
+      "locator": {
+        "type": "css selector",
+        "value": "div.item.active > div.carousel-caption > h3"
+      },
+      "text": "THMcards speaks TeX"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.glyphicon.glyphicon-chevron-right"
+      }
+    },
+    {
+      "type": "waitForText",
+      "locator": {
+        "type": "css selector",
+        "value": "div.item.active > div.carousel-caption > h3"
+      },
+      "text": "Hello World!"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "span.glyphicon.glyphicon-chevron-right"
+      }
+    },
+    {
+      "type": "waitForText",
+      "locator": {
+        "type": "css selector",
+        "value": "div.item.active > div.carousel-caption > h3"
+      },
+      "text": "Collect badges"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "css selector",
+        "value": "button.close"
+      }
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "Select your login:"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "link text",
+        "value": "Legal Notice"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
