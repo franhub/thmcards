@@ -8,5 +8,5 @@ script:
 - se-interpreter selenium/interpreter_config.json
 env:
   global:
-  - SAUCE_USERNAME=jonaswisplinghoff
+  - SAUCE_USERNAME=franhub
   - secure: ???
