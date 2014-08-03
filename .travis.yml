@@ -9,4 +9,4 @@ script:
 env:
   global:
   - SAUCE_USERNAME=franhub
-  - secure: ???
+  - secure: jkq9Do0q2W4Q8Kp3zhqVEQyDeqvk+8kNDjNC0t5tpbVP8thiNHGDojiAUgIwhJT5lV6m0RtAKjiCqztlZA1tfLd488tkJbW5ur2ENm7HhuHFP7m22vurrezLiAHSCL0EcmvbqI0hbkabOBv05oo2A8vJb3Mo/vrY0RcbIst/j9k=
